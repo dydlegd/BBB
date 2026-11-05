@@ -22,6 +22,7 @@ public class Test : MonoBehaviour
     {
         ResKit.Init();
         Debug.Log("ResKit Init");
+        Debug.Log("ResLoader Init");
     }
 
     // Update is called once per frame
