@@ -1,0 +1,24 @@
+#玩家数据接口
+
+##属性
+ID
+分数
+总投币
+总退币
+总上分
+总下分
+当前得分
+
+##接口
+Init
+Reset
+Update(float delta)
+OnDestory
+Bet(int betScore)
+AddScore(int score)
+DownScore(int score)
+AddCoinIn(int sum)
+AddCoinOut(int sum)
+
+##事件
+数据变更

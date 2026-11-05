@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b72a9cfc49d2e842b51b8d56b4a4792, type: 3}
+  m_Name: CannonConfig_1
+  m_EditorClassIdentifier: 
+  Level: 1
+  FireInterval: 0
+  PowerMultiplier: 1
+  DefaultBulletConfigId: 1
+  RotationSpeed: 360
+  MaxAimAngle: 80
+  RotationAxis: {x: 0, y: 0, z: 1}
+  RecoilDistance: 5
+  RecoilRecoverSpeed: 100

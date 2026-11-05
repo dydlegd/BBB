@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972f5957b5e93944493ca571bc0e5e76, type: 3}
+  m_Name: BulletConfig_1
+  m_EditorClassIdentifier: 
+  ConfigId: 1
+  EntityName: Bullet_1
+  Prefab: {fileID: 1849046994226271850, guid: c239a232cbfa6884596af7495e62a08d, type: 3}
+  PreloadCount: 10
+  Damage: 100
+  Speed: 1600
+  MaxLifetime: 0
+  CollideRadius: 30
+  CollisionType: 0
+  PierceCount: 1
+  ExplosionRadius: 100
+  ExplosionDamageFactor: 0.5
+  BounceCount: 3
+  BounceSearchRadius: 200
+  TrajectoryType: 0
+  WaveFrequency: 10
+  WaveAmplitude: 0.5
+  HomingTurnRate: 180
+  Gravity: 2
+  DestroyOnBoundary: 1
+  BounceOnBoundary: 0
+  MaxBounceCount: 0
+  HitEffectPrefab: {fileID: 0}
+  DestroyEffectPrefab: {fileID: 0}
+  HitSound: 
+  SpinSpeed: 0
+  ViewRotationOffset: {x: 0, y: 0, z: 0}

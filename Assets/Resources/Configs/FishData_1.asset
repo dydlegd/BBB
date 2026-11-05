@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c04a1eb5ea96c49a1e6b9593e9ab4a, type: 3}
+  m_Name: FishData_1
+  m_EditorClassIdentifier: Assembly-CSharp::FishData
+  ConfigId: 1
+  EntityName: Fish_1
+  Prefab: {fileID: 6007167356232502480, guid: 98fc87827b6fd164db75638ec79d6cc3, type: 3}
+  PreloadCount: 100
+  MaxHP: 100
+  Score: 0
+  BaseMoveSpeed: 3
+  CollideRadius: 1
+  DefaultStrategy: 0
+  WaveFrequency: 2.2
+  WaveAmplitude: 0.5
+  TurnIntervalMin: 2.5
+  TurnIntervalMax: 5
+  TurnAngleRange: 60
+  CircleRotateSpeed: 1
+  BoundaryLimit: 30
+  DepthAmplitude: 0
+  DepthFrequency: 0.2
+  ViewRotationOffset: {x: 0, y: 0, z: 180}
