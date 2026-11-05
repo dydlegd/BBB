@@ -21,6 +21,7 @@ public class Test : MonoBehaviour
     void Start()
     {
         ResKit.Init();
+        Debug.Log("ResKit Init");
     }
 
     // Update is called once per frame
@@ -31,7 +32,7 @@ public class Test : MonoBehaviour
             FishGameLauncher.BulletFactory?.SpawnById(1, new Vector3(Screen.width * 0.5f, Screen.height * 0.5f, 0), new Vector3(0,0,Random.Range(-180,180)), BulletParent);
         }
         
-        
+
         
         if (Input.GetKeyDown(KeyCode.B))
         {
